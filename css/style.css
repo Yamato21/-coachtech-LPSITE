@@ -17,23 +17,35 @@ nav a {
   padding: 12px 12px;
 }
 
+.title{
+  display: flex;
+  position: relative;
+  justify-content: space-between
+}
+
 .title_main {
-  font-size: 60px;
+  font-size: 70px;
   color: #FF0BD8;
   line-height: 80px;
-  margin: 70px 0 70px 250px;
-  position: relative;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+
 }
 
 .title_text {
   font-size: 30px;
   color: #FF0BD8;
-  margin: 0 0 0 250px;
-  position: relative;
+  position: absolute;
+  top: 60%;
+  left: 20%; 
 }
 
 .title2_text {
-  margin:0 0 0 250px;
+position: absolute;
+top: 70%;
+left: 20%;
+font-size: 25px;
 }
 
 span{
@@ -41,14 +53,14 @@ span{
 }
 
 .firstview{
-  display: flex;
-  margin:-320px 0 100px auto;
-  width: 1300px;
-  height: 600px;
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
 }
 
 .news{
-  margin: 0 0 0 270px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .news_tag{
@@ -67,7 +79,7 @@ span{
 }
 
 .news_item{
-  margin: 30px;
+  margin: 30px 0;
   border-bottom: 1px solid black;
   padding-bottom: 1em;
   display: flex;
@@ -93,36 +105,43 @@ span{
 }
 
 .about{
-  margin: 0 0 0 270px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .about_tag{
-  margin: 200px 0 0 0;
   color: pink;
+  margin: 0 auto;
   text-align: center;
 }
 
 .about_title{
-  font-size: 50px;
+  font-size: 40px;
+  margin: 40px 0;
   text-align: center;
 }
 
+.about main{
+  display: flex;
+  position: relative;
+}
+
 .about_text{
-  display: inline-block;
-  vertical-align: top;
-  font-size: 25px;
-  margin: 50px 0;
-  line-height:50px
+  position: absolute;
+  font-size: 16px;
+  line-height:30px;
+  margin: 0 auto 0 0;
 }
 
 .about_img{
-  display: inline-block;
-  width: 600px;
-  margin: 50px 200px;
+  width: 40%;
+  display: block;
+  margin: 0 0 0 auto;
 }
 
 .service{
-  margin: 0 0 0 270px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .service_tag{
@@ -137,8 +156,8 @@ span{
 
 .service_glid{
   display: grid;
-  grid-template-rows: 400px 400px;
-  grid-template-columns:700px 700px;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 650px 650px;
 }
 
 .serviceA{
@@ -163,45 +182,47 @@ span{
 .imgA{
   display:block;
   margin: auto;
-  width: 400px;
+  width: 300px;
 }
 
 .jigyouA{
   color: white;
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .jigyou_textA{
   color: white;
-  margin: 0 100px ;
+  margin: 0 50px ;
   line-height: 30px;
   font-size: 20px;
 }
 
 .imgB{
   float: left;
-  margin: 100px auto 100px 0;
-  width: 200px;
+  margin: 50px auto 100px 0;
+  width: 150px;
 }
 
 .naiyou{
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .jigyou{
   margin: 40px 0 0 0;
   color: white;
-  font-size: 25px;
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .blog{
-  margin: 0 230px 0 270px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .blog_tag{
@@ -216,7 +237,6 @@ span{
 
 .blog_item {
   display: flex;
-  justify-content: space-between;
 }
 
 .blog_item> :nth-child(2n) {
@@ -229,6 +249,7 @@ span{
   position:relative;
   border-radius: 20px 20px 0 0;
   overflow: hidden;
+  text-align: center;
 }
   
 .blog_img {
@@ -236,10 +257,12 @@ span{
 }
 
 .blog_text{
-  font-size: 22px;
-  margin: 50px 0;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .blog_header {
@@ -254,15 +277,19 @@ span{
   border-radius: 20px 0 0 0;
 }
 
+.blog_parent{
+  display: flex;
+  justify-content: space-between;
+}
+
 .blog_day {
   display: inline-block;
-  margin-left: 30px;
-  margin-right: 90px;
+  margin-right: auto;
 }
 
 .blog_coach {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: auto;
 }
 
 .botton{
@@ -280,7 +307,8 @@ span{
 }
 
 .company{
-  margin: 0 230px 0 270px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .company_tag{
@@ -376,11 +404,12 @@ span{
   background: #FF0BD8;
   border-radius: 50px;
   padding: 20px 60px;
+  display: flex;
 }
 
 .otoiawase_icon{
   width: 25px;
-  left: 45%;
+  left: 40%;
   top: 30%;
   position: absolute;
 }
