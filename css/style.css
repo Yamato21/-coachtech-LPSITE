@@ -108,7 +108,7 @@ span{
 .about{
   background:rgb(211, 210, 210);
   background-size: cover;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -228,7 +228,7 @@ span{
 }
 
 .blog{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   background: rgb(211, 210, 210);
   box-sizing: border-box;
