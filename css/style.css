@@ -1,3 +1,4 @@
+
 .logo {
   width: 200px;
   float: left;
@@ -34,7 +35,7 @@ nav a {
 }
 
 .title_text {
-  font-size: 30px;
+  font-size: 24px;
   color: #FF0BD8;
   position: absolute;
   top: 60%;
@@ -45,7 +46,7 @@ nav a {
 position: absolute;
 top: 70%;
 left: 20%;
-font-size: 25px;
+font-size: 18px;
 }
 
 span{
@@ -69,13 +70,13 @@ span{
 }
 
 .news_title{
-  font-size: 50px;
+  font-size: 24px;
   margin: 10px 0 50px 0;
   
 }
 
 .sintyaku{
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .news_item{
@@ -109,7 +110,7 @@ span{
   background-size: cover;
   width: 80%;
   margin: 0 auto;
-  padding: 0 200px 30px 200px;
+  box-sizing: border-box;
 }
 
 .about_tag{
@@ -119,7 +120,7 @@ span{
 }
 
 .about_title{
-  font-size: 40px;
+  font-size: 24px;
   margin: 40px 0;
   text-align: center;
 }
@@ -131,7 +132,7 @@ span{
 
 .about_text{
   position: absolute;
-  font-size: 16px;
+  font-size: 18px;
   line-height:30px;
   margin: 0 auto 0 0;
 }
@@ -145,6 +146,7 @@ span{
 .service{
     width: 80%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .service_tag{
@@ -153,7 +155,7 @@ span{
 }
 
 .service_title{
-  font-size: 40px;
+  font-size: 24px;
   margin: 40px 0;
 }
 
@@ -229,7 +231,7 @@ span{
   width: 80%;
   margin: 0 auto;
   background: rgb(211, 210, 210);
-  padding: 0 200px 30px 200px;
+  box-sizing: border-box;
 }
 
 .blog_tag{
@@ -238,7 +240,7 @@ span{
 }
 
 .blog_title{
-  font-size: 40px;
+  font-size: 24px;
   margin: 40px 0;
 }
 
@@ -265,7 +267,7 @@ span{
 
 .blog_text{
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 20px 0;
   font-weight: 400;
   text-align: left;
@@ -277,7 +279,7 @@ span{
   background: #FF0BD8;
   margin-bottom: 20px;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   position:absolute;
   top: 0;
   left: 0;
@@ -305,7 +307,7 @@ span{
 }
 
 .itiran_botton{
-  font-size: 25px;
+  font-size: 18px;
   color: #FF0BD8;
   border: solid;
   border-color: #FF0BD8;
@@ -325,12 +327,12 @@ span{
 }
 
 .gaiyou_title{
-  font-size: 40px;
+  font-size: 24px;
   margin: 40px 0;
 }
 
 .hyou{
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .hyou_th{
@@ -370,7 +372,7 @@ span{
   color: white;
   top: 50%;
   left: 50%;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   transform: translate(-50%, -50%);
 }
@@ -380,7 +382,7 @@ span{
   color: white;
   top: 50%;
   left: 50%;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   transform: translate(-50%, -50%);
 }
