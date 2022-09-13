@@ -105,8 +105,10 @@ span{
 }
 
 .about{
+  background:rgb(211, 210, 210);
   width: 80%;
   margin: 0 auto;
+  padding: 0 0 50px 0;
 }
 
 .about_tag{
@@ -225,6 +227,8 @@ span{
 .blog{
   width: 80%;
   margin: 0 auto;
+  background: rgb(211, 210, 210);
+  padding: 0 0 50px 0;
 }
 
 .blog_tag{
@@ -306,6 +310,7 @@ span{
   border-color: #FF0BD8;
   border-radius: 50px;
   padding: 20px 50px;
+  text-decoration: none;
 }
 
 .company{
