@@ -106,9 +106,10 @@ span{
 
 .about{
   background:rgb(211, 210, 210);
+  background-size: cover;
   width: 80%;
   margin: 0 auto;
-  padding: 0 0 50px 0;
+  padding: 0 200px 30px 200px;
 }
 
 .about_tag{
@@ -228,7 +229,7 @@ span{
   width: 80%;
   margin: 0 auto;
   background: rgb(211, 210, 210);
-  padding: 0 0 50px 0;
+  padding: 0 200px 30px 200px;
 }
 
 .blog_tag{
