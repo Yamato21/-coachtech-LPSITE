@@ -105,12 +105,16 @@ span{
   display: flex;
 }
 
-.about{
-  background:rgb(211, 210, 210);
+.about_back{
+  background: rgb(211, 210, 210);
   background-size: cover;
   width: 100%;
-  margin: 0 auto;
+}
+.about{
+  width: 80%;
+  margin: 60px auto;
   box-sizing: border-box;
+
 }
 
 .about_tag{
@@ -143,10 +147,15 @@ span{
   margin: 0 0 0 auto;
 }
 
+.service_back{
+  background: rgb(211, 210, 210);
+  background-size: cover;
+  width: 100%;
+}
+
 .service{
     width: 80%;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 .service_tag{
@@ -163,6 +172,7 @@ span{
   display: grid;
   grid-template-rows: 200px 200px;
   grid-template-columns: 570px 570px;
+  margin: auto;
 }
 
 .serviceA{
@@ -227,11 +237,15 @@ span{
   text-align: center;
 }
 
-.blog{
-  width: 100%;
-  margin: 0 auto;
+.blog_back{
   background: rgb(211, 210, 210);
-  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.blog{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .blog_tag{
@@ -312,8 +326,8 @@ span{
   border: solid;
   border-color: #FF0BD8;
   border-radius: 50px;
-  padding: 20px 50px;
   text-decoration: none;
+  padding: 20px 50px;
 }
 
 .company{
@@ -417,14 +431,16 @@ span{
   background: #FF0BD8;
   border-radius: 50px;
   padding: 20px 60px;
-  display: flex;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .otoiawase_icon{
   width: 25px;
-  left: 40%;
-  top: 30%;
-  position: absolute;
+  height: auto;
+  margin-right: 15px;
+  vertical-align: -10px;
 }
 
 .copy-right{
