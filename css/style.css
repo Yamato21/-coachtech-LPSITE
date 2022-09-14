@@ -16,6 +16,7 @@ nav a {
   display: block;
   list-style-type: none;
   padding: 12px 12px;
+  text-decoration: none;
 }
 
 .title{
@@ -150,8 +151,8 @@ span{
 }
 
 .service{
-    width: 80%;
-    margin: 70px auto;
+    width: 100%;
+    padding: 70px 100px;
 }
 
 .service_tag{
@@ -167,15 +168,15 @@ span{
 .service_glid{
   display: grid;
   grid-template-rows: 200px 200px;
-  grid-template-columns: 570px 570px;
-  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
 }
 
 .serviceA{
   grid-row: 1/3;
   grid-column: 1/2;
   background: #ff0aac;
-  
+  text-align: center;
 }
 
 .serviceB{
@@ -193,13 +194,12 @@ span{
 .imgA{
   display:block;
   margin: 20px auto 0 auto;
-  width: 200px;
+  width: 175px;
 }
 
 .jigyouA{
   color: white;
   font-size: 20px;
-  text-align: center;
   line-height: 30px;
   margin: 20px 0;
 
@@ -207,19 +207,20 @@ span{
 
 .jigyou_textA{
   color: white;
-  margin: 0 50px ;
+  display: inline-block;
+  text-align: left;
   line-height: 30px;
   font-size: 16px;
 }
 
 .imgB{
   float: left;
-  margin: 30px auto 100px 0;
-  width: 150px;
+  margin: 20px 0 30px 50px;
+  width: 175px;
 }
 
 .naiyou{
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 300px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -266,7 +267,7 @@ span{
 .blog_itemA {
   width: 30%;
   position:relative;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px;
   overflow: hidden;
   text-align: center;
   background-color: white;
@@ -346,13 +347,15 @@ span{
 .hyou_th{
   border: 1px solid black;
   text-align: left;
-  padding: 20px 0;
+  padding: 20px 0 20px 30px;
   width: 400px;
+  background: rgb(211, 210, 210);
 }
 
 .hyou_td{
   border: 1px solid black;
   width: 700px;
+  padding: 0 0 0 30px;
 }
 
 .saiyou_interview{
@@ -432,7 +435,7 @@ span{
 
 .otoiawase_botton {
   color: white;
-  background: linear-gradient(90deg,#eb67dd,black);
+  background: linear-gradient(90deg,#eb67dd,rgb(56, 1, 44));
   box-shadow: 0px 5px rgba(0, 0, 0, .5);
   border-radius: 50px;
   padding: 20px 60px;
@@ -451,4 +454,6 @@ span{
 .copy-right{
   text-align: center;
   margin-top: 70px;
+  background: rgb(211, 210, 210);
+  padding: 30px 0;
 }
