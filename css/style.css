@@ -60,12 +60,12 @@ span{
 }
 
 .news{
-  width: 80%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 100px auto;
 }
 
 .news_tag{
-  margin: 200px 0 0 0;
+  margin: 200px 0 40px 0;
   color: pink;
 }
 
@@ -109,10 +109,12 @@ span{
   background: rgb(211, 210, 210);
   background-size: cover;
   width: 100%;
+  padding: 50px 0;
 }
+
 .about{
   width: 80%;
-  margin: 60px auto;
+  margin: 0 auto;
   box-sizing: border-box;
 
 }
@@ -147,20 +149,14 @@ span{
   margin: 0 0 0 auto;
 }
 
-.service_back{
-  background: rgb(211, 210, 210);
-  background-size: cover;
-  width: 100%;
-}
-
 .service{
     width: 80%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .service_tag{
   color: pink;
-  margin: 200px 0 0 0;
+  margin: 70px 0 0 0;
 }
 
 .service_title{
@@ -240,7 +236,7 @@ span{
 .blog_back{
   background: rgb(211, 210, 210);
   width: 100%;
-  padding-bottom: 50px;
+  padding: 30px 0;
 }
 
 .blog{
@@ -250,7 +246,7 @@ span{
 
 .blog_tag{
   color: pink;
-  margin: 200px 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .blog_title{
@@ -273,6 +269,8 @@ span{
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   text-align: center;
+  background-color: white;
+  padding-bottom: 50px;
 }
   
 .blog_img {
@@ -300,19 +298,15 @@ span{
   border-radius: 20px 0 0 0;
 }
 
-.blog_parent{
-  display: flex;
-  justify-content: space-between;
-}
-
 .blog_day {
   display: inline-block;
-  margin-right: auto;
+  margin-right: 30px;
 }
 
 .blog_coach {
   display: inline-block;
-  margin-left: auto;
+  margin-left: 30px;
+
 }
 
 .botton{
@@ -415,12 +409,22 @@ span{
   font-weight: bold;
   margin-left: 0;
   margin-right: 0;
+  border-bottom: 100px;
+  border: #ff0aac;
+  position: relative;
+}
+
+.line_vertical{
+  width: 2px;
+  height: 30px;
+  background-color: #ff0aac;
+  margin: 20px auto;
 }
 
 .otoiawase_form{
   left:0;
   right: 0;
-  margin-top: 70px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -428,10 +432,11 @@ span{
 
 .otoiawase_botton {
   color: white;
-  background: #FF0BD8;
+  background: linear-gradient(90deg,#eb67dd,black);
+  box-shadow: 0px 5px rgba(0, 0, 0, .5);
   border-radius: 50px;
   padding: 20px 60px;
-  display: block;
+  display: flex;
   box-sizing: border-box;
   text-decoration: none;
 }
