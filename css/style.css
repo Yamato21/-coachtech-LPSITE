@@ -300,13 +300,13 @@ span{
   border-radius: 20px 0 0 0;
 }
 
-.blog_parent{
+.tag_parent{
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .blog_day {
-  display: inline-block
+  display: inline-block;
 }
 
 .blog_coach {
