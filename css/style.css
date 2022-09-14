@@ -215,23 +215,24 @@ span{
 
 .imgB{
   float: left;
-  margin: 20px 0 30px 50px;
+  margin: 20px 0 30px 0px;
   width: 175px;
 }
 
 .naiyou{
-  margin: 50px 0 0 300px;
+  margin: 50px 0 0 170px;
   color: white;
   font-weight: bold;
   font-size: 20px;
 }
 
 .jigyou{
-  margin: 10px 0;
+  margin: 10px 150px;
+  padding: 0 0 0 30px;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 30px;
-  text-align: center;
+  width: 100%
 }
 
 .blog_back{
@@ -299,15 +300,17 @@ span{
   border-radius: 20px 0 0 0;
 }
 
+.blog_parent{
+  display: flex;
+  justify-content: space-between
+}
+
 .blog_day {
-  display: inline-block;
-  margin-right: 30px;
+  display: inline-block
 }
 
 .blog_coach {
   display: inline-block;
-  margin-left: 30px;
-
 }
 
 .botton{
