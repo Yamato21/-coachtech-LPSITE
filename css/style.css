@@ -153,7 +153,6 @@ span{
 
 .service{
   width: 100%;
-  padding: 70px 100px;
 }
 
 .service_tag{
@@ -170,7 +169,7 @@ span{
   display: grid;
   grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
-  width: 80%;
+  width: 100%;
 }
 
 .serviceA{
