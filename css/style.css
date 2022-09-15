@@ -26,28 +26,29 @@ nav a {
 }
 
 .title_main {
-  font-size: 70px;
+  font-size: 50px;
   color: #FF0BD8;
-  line-height: 60px;
+  line-height: 80px;
   position: absolute;
-  top: 20%;
-  left: 20%;
-
+  top: 5%;
+  left: 25%;
+  font-family: 'Indie Flower';
 }
 
 .title_text {
-  font-size: 24px;
+  font-size: 20px;
   color: #FF0BD8;
   position: absolute;
-  top: 60%;
-  left: 20%; 
+  top: 55%;
+  left: 25%; 
 }
 
 .title2_text {
 position: absolute;
-top: 70%;
-left: 20%;
-font-size: 18px;
+top: 63%;
+left: 25%;
+font-size: 14px;
+line-height: 20px;
 }
 
 span{
@@ -152,7 +153,8 @@ span{
 }
 
 .service{
-  width: 100%;
+  width: 80%;
+  margin: 0 auto 70px auto;
 }
 
 .service_tag{
@@ -210,24 +212,25 @@ span{
   display: inline-block;
   text-align: left;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .imgB{
   float: left;
   margin: 20px 0 30px 0px;
-  width: 175px;
+  width: 150px;
 }
 
 .naiyou{
-  margin: 50px 0 0 170px;
+  margin: 30px 0 0 150px;
+  padding: 10px 0;
   color: white;
   font-weight: bold;
   font-size: 20px;
 }
 
 .jigyou{
-  margin: 10px 100px;
+  margin: 0 auto;
   padding: 0 0 0 30px;
   color: white;
   font-size: 12px;
