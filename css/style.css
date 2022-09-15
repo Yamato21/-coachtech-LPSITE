@@ -28,7 +28,7 @@ nav a {
 .title_main {
   font-size: 70px;
   color: #FF0BD8;
-  line-height: 80px;
+  line-height: 60px;
   position: absolute;
   top: 20%;
   left: 20%;
@@ -61,7 +61,7 @@ span{
 }
 
 .news{
-  width: 70%;
+  width: 80%;
   margin: 100px auto;
 }
 
@@ -85,6 +85,7 @@ span{
   border-bottom: 1px solid black;
   padding-bottom: 1em;
   display: flex;
+  width: 100%
 }
 
 .news_item:first-child{
@@ -151,8 +152,8 @@ span{
 }
 
 .service{
-    width: 100%;
-    padding: 70px 100px;
+  width: 100%;
+  padding: 70px 100px;
 }
 
 .service_tag{
